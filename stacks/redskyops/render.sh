@@ -5,7 +5,7 @@ set -e
 BUILD_DIR=$(mktemp -d)
 ROOT_DIR=$(git rev-parse --show-toplevel)
 
-SRC_VERSION="0.1.2"
+SRC_VERSION="0.2.0"
 
 cp -r "$ROOT_DIR"/src/redskyops/"$SRC_VERSION" $BUILD_DIR
 cp -r "$ROOT_DIR"/stacks/redskyops $BUILD_DIR
